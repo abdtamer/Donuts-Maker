@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
-    <title>Donut Clicker</title>
-  </head>
-  <body>   
- <header>
-  
-  <nav class="navigation">
-    <a href="Tamer AbdelMageed
-      Full-stack developer
-      Hi, I'm Tamer
-      I am full-stack developer be able to work for aging stable company that will assist me in developing improving and obtaining the necessary skills in order to become the best engineer possible">About Me</a>
-    <a href="Fred the Baker Baking Company has been making hot, fresh donuts for the last 60 years. Fred has a secret donut recipe that he created with a French chef and began selling his Baking Company Donuts from the front of the shop. Fred has decided he is ready to retire and wants his love of donuts to stay alive as users experience the Donut Maker.">The inspiration</a>
-    <a href="Contact">Contact us</a>
-    <a href="Tamer AbdelMageed">About the Developer</a>
+    <title>donuts Maker</title>
+</head>
+<header>
+    <nav class="nav">
     
-  </nav>
-</header>      
+    <div class="content">
+<a href="Fred the Baker Baking Company has been making hot, fresh donuts for the last 60 years. Fred has a secret donut recipe that he created with a French chef and began selling his Baking Company Donuts from the front of the shop. Fred has decided he is ready to retire and wants his love of donuts to stay alive as users experience the Donut Maker"target="_blank">About Company</a>
+<a href="https://github.com/abdtamer" target="_blank">Contact</a>
+<a href="Tamer AbdelMageed _ Full-stack developer_
+Hi, I'm Tamer, I am full-stack developer be able to work for aging stable company that will assist me in developing improving and obtaining the necessary skills in order to become the best engineer possible" target="_blank">About Developer</a>
+<p><button type=button class="collapsible">Our Inspiration</button></p>
+    <div class="content">
+    <p>The only way to do great work is to love what you do.</p>
 
-      <h1>Donut Clicker</h1>
-      <h2>Welcome to Fred the Baker Baking Company. Time to make the Donuts!</h2>  
-      <h3><span class="donut-count">0</span> Donuts</h3>
+    </div>
+    </nav>
+
+    <h1>Donut Maker Game</h1>
     <img src="https://th.bing.com/th?q=Donut+Art& =120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-US&cc=U" alt="jsButton" class="donutButton">
-  
+    <h2>Welcome to Fred the Baker Baking Company. Time to make the Donuts!</h2>  
+    <style></style>
 
-<style> body {background: url('back g.jpg');
+</header>
+<style>
+p {background-image: url('back g.jpg');
 }
 </style>
+<body> 
+    <div class="container">
+        <section class="donuts">
+            <p>Donuts created:</p>
+        <p class="donuts__created">0</p>
+        <button class="button donuts__maker">Make Donuts</button>
 
+        </section>
 
+        <section class="auto-clickers">
+            <p>Autoclickers purchased:</p>
+            <p class="auto-clickers__created">0</p>
+            <p>Autoclickers cost:</p>
+            <p class="auto-clickers__cost">100</p>
+            <button class="auto-clickers__buy">Buy Autoclicker</button>
+        </section>
 
-   <div class="upgrades"></div>
+        <section class="donut-multipliers">
+            <p>Donut Multipliers purchased:</p>
+            <p class="donut-multipliers__created">0</p>
+            <p>Donut Multiplier cost:</p>
+            <p class="donut-multipliers__cost">10</p>
+            <p>Current Click Value:</p>
+            <p class="donut-multipliers__value">0</p>
+            <button class="button donut-multipliers__buy">Buy Donut Multiplier</button>
+        </section>
+        <br>
+        <div class="anchor"></div>
 
-   <div class="upgrades">
-    <div class="auto-clicker-upgrade">
-        <h3 class="price">Auto Clicker Price</h3>
-        <h2><span id="auto-clicker-price">100</span> Donuts</h2>
-            <button id="purchase-auto-clicker">Purchase Auto Clicker</button>
-        <h3 class="price">Total Purchased:</h3>
-        <h2><span id="auto-clickers-total">0</span></h2>
+        <button class="button" onClick= "window.location.reload();">Reset Game</button>
     </div>
-    <div class="click-multiplier-upgrade">
-        <h3 class="price">Click Multiplier Price</h3>
-        <h2><span id="click-multiplier-price">10</span> Donuts</h2>
-            <button id="purchase-click-multiplier">Purchase Click Multiplier</button>
-        <h3 class="price">Total Purchased:</h3>
-        <h2><span id="click-multiplier">0</span></h2>
-        <div>
-
-        </div>
-   <button id="reset-game-button">Reset</button>
-
-<script src="donutclicker.js"></script>
-
-
-    
     <footer>
-      <p>Copyright MyApp donut-clicker 2023</p>
-  </footer>
-  </body>
+<p>Copyright MyApp donut-clicker 2023</p>
+</footer>
+    <script src="donuts.js"></script>
+    
+</body>
 </html>
