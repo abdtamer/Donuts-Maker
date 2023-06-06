@@ -8,7 +8,9 @@
 
     <title>Donut Clicker</title>
   </head>
- 
+  <body>   
+ <header>
+  
   <nav class="navigation">
     <a href="Tamer AbdelMageed
       Full-stack developer
@@ -16,36 +18,48 @@
       I am full-stack developer be able to work for aging stable company that will assist me in developing improving and obtaining the necessary skills in order to become the best engineer possible">About Me</a>
     <a href="Fred the Baker Baking Company has been making hot, fresh donuts for the last 60 years. Fred has a secret donut recipe that he created with a French chef and began selling his Baking Company Donuts from the front of the shop. Fred has decided he is ready to retire and wants his love of donuts to stay alive as users experience the Donut Maker.">The inspiration</a>
     <a href="Contact">Contact us</a>
-    <a href="About the Developer">About the Developer</a>
+    <a href="Tamer AbdelMageed">About the Developer</a>
     
   </nav>
+</header>      
 
-  <body>        
-    <header>
       <h1>Donut Clicker</h1>
-      <h2>Welcome to Fred the Baker Baking Company. Time to make the Donuts!</h2>
-      
-   
-   <li>
-    <button id="Donut per Click">Donut per Click</button>
-  </li>
+      <h2>Welcome to Fred the Baker Baking Company. Time to make the Donuts!</h2>  
+      <h3><span class="donut-count">0</span> Donuts</h3>
+    <img src="https://th.bing.com/th?q=Donut+Art& =120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-US&cc=U" alt="jsButton" class="donutButton">
+  
 
-          <li>
-            <button id="buy-clicker"> Purchase Auto Clicker</button>
-          </li>
-          <li>
-            <button id="buy-multiplier">Buy Donut Multiplier</button>
-          </li>
-        </ul>
+<style> body {background: url('back g.jpg');
+}
+</style>
 
-          <li>
-            <button id="reset">RESET</button>
-          </li>
-        </ul>
-      </section>
+
+
+   <div class="upgrades"></div>
+
+   <div class="upgrades">
+    <div class="auto-clicker-upgrade">
+        <h3 class="price">Auto Clicker Price</h3>
+        <h2><span id="auto-clicker-price">100</span> Donuts</h2>
+            <button id="purchase-auto-clicker">Purchase Auto Clicker</button>
+        <h3 class="price">Total Purchased:</h3>
+        <h2><span id="auto-clickers-total">0</span></h2>
     </div>
+    <div class="click-multiplier-upgrade">
+        <h3 class="price">Click Multiplier Price</h3>
+        <h2><span id="click-multiplier-price">10</span> Donuts</h2>
+            <button id="purchase-click-multiplier">Purchase Click Multiplier</button>
+        <h3 class="price">Total Purchased:</h3>
+        <h2><span id="click-multiplier">0</span></h2>
+        <div>
 
-    <script src="./donutclicker.js"></script>
+        </div>
+   <button id="reset-game-button">Reset</button>
+
+<script src="donutclicker.js"></script>
+
+
+    
     <footer>
       <p>Copyright MyApp donut-clicker 2023</p>
   </footer>
