@@ -22,8 +22,8 @@ donutMultButton.disabled = true;
 
 const createDonut = () => {
   if (donutMultiplier.count > 0) {
-      donut.count += Math.pow(1.2, donutMultiplier.count);
-      donutMultiplier.clickValue = Math.pow(1.2, donutMultiplier.count);
+      // donut.count += Math.pow(1.2, donutMultiplier.count);
+      // donutMultiplier.clickValue = Math.pow(1.2, donutMultiplier.count);
       document.querySelector(".donut-multipliers__value").innerHTML = donutMultiplier.clickValue;
       document.querySelector(".donuts__created").innerHTML = donut.count;
   } else {
